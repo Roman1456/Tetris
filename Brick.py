@@ -25,6 +25,8 @@ class Brick:
         if keys[pygame.K_a]:
             self.hitbox.x -= self.speed
 
+        #if keys[pygame.K_r]:
+        #    rotater = True
 
 
 

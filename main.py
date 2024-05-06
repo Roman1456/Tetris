@@ -24,6 +24,8 @@ for i in range(1):
     brick1.append(Brick(350,500,200,200, "Papka/pixil-frame-5.png",5))
 
 
+
+
 game = True
 while game:
     for event in pygame.event.get():
@@ -32,9 +34,6 @@ while game:
 
         if event.type == pygame.QUIT:
             pygame.quit()
-
-
-
 
 
 
