@@ -16,6 +16,9 @@ class Brick:
     def move(self):
         keys = pygame.key.get_pressed()
 
+        if keys[pygame.K_w]:
+            self.hitbox.y -= self.speed
+
         if keys[pygame.K_s]:
             self.hitbox.y += self.speed
 
@@ -25,12 +28,11 @@ class Brick:
         if keys[pygame.K_a]:
             self.hitbox.x -= self.speed
 
-        #if keys[pygame.K_r]:
-        #    rotater = True
 
 
 
-        #self.hitbox.y += self.speed
-        #if self.hitbox.y > 600:
-         #   self.hitbox.y = 0
-         #   self.hitbox.x = random.randint(0, 240)
+
+        self.hitbox.y += self.speed
+        if self.hitbox.y > 600:
+            self.hitbox.y = 0
+            self.hitbox.x = random.randint(0, 240)

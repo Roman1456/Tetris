@@ -35,6 +35,8 @@ while game:
         if event.type == pygame.QUIT:
             pygame.quit()
 
+        if 
+
 
 
     window.blit(backround, (0, 0))
