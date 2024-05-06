@@ -32,7 +32,7 @@ class Brick:
 
 
 
-        self.hitbox.y += self.speed
+        #self.hitbox.y += self.speed
         if self.hitbox.y > 600:
-            self.hitbox.y = 0
-            self.hitbox.x = random.randint(0, 240)
+            self.hitbox.y = -80
+            self.hitbox.x = 150

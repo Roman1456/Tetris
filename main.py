@@ -15,13 +15,13 @@ backround = pygame.transform.scale(
 brick1 = []
 
 for i in range(1):
-    brick1.append(Brick(300,390,200,200, "Papka/pixil-frame-0 (1).png",5))
-    brick1.append(Brick(100,250,200,200, "Papka/pixil-frame-0.png",5))
-    brick1.append(Brick(50,400,200,200, "Papka/pixil-frame-1.png",5))
-    brick1.append(Brick(250,300,200,200, "Papka/pixil-frame-2.png",5))
-    brick1.append(Brick(100,400,200,200,"Papka/pixil-frame-3.png",5))
-    brick1.append(Brick(56,50,200,200, "Papka/pixil-frame-4.png",5))
-    brick1.append(Brick(350,500,200,200, "Papka/pixil-frame-5.png",5))
+    brick1.append(Brick(160,-80,200,200, "Papka/pixil-frame-0 (1).png",5))
+    #brick1.append(Brick(100,250,200,200, "Papka/pixil-frame-0.png",5))
+   # brick1.append(Brick(50,400,200,200, "Papka/pixil-frame-1.png",5))
+    #brick1.append(Brick(250,300,200,200, "Papka/pixil-frame-2.png",5))
+   # brick1.append(Brick(100,400,200,200,"Papka/pixil-frame-3.png",5))
+    #brick1.append(Brick(56,50,200,200, "Papka/pixil-frame-4.png",5))
+    #brick1.append(Brick(350,500,200,200, "Papka/pixil-frame-5.png",5))
 
 
 
@@ -35,7 +35,7 @@ while game:
         if event.type == pygame.QUIT:
             pygame.quit()
 
-        if 
+
 
 
 
