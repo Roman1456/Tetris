@@ -8,7 +8,7 @@ class Brick:
         self.hitbox.x = x
         self.hitbox.y = y
         self.speed = speed
-
+        self.stopped = False
 
     def draw(self, window):
         window.blit(self.photo, (self.hitbox.x, self.hitbox.y))
@@ -31,8 +31,8 @@ class Brick:
 
 
 
-
         #self.hitbox.y += self.speed
         if self.hitbox.y > 600:
             self.hitbox.y = -80
             self.hitbox.x = 150
+
